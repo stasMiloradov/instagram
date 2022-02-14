@@ -7,10 +7,17 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .gray
+        view.backgroundColor = .systemBlue
+        print("viewDidLoad Home")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("viewDidAppear Home")
     }
 
 
